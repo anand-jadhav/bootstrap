@@ -1,1 +1,19 @@
-$blue: red;
+$blue: black;
+
+html,body{padding: 0 0 0 0;
+height:100%;
+box-sizing:border-box;}
+body{background-color: #f8f9fa;}
+.container{margin: 3rem;}
+.investors{margin: 3rem;}
+@import 'variable';
+$jumbotron-bg:#9e0b0f;
+$jumbotron-font: #fff;
+$border-radius-lg: 0rem;
+$body-color: black;
+@mixin border-radius($radius: 20px) {
+  -webkit-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+.col-md-6 a{ width: 100%;}
